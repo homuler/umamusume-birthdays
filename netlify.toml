@@ -1,0 +1,8 @@
+[build]
+  base = "."
+  publish = "resources/"
+  command = "make build"
+
+[[redirects]]
+  from = "/"
+  to = "/birthdays.ics"
