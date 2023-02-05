@@ -84,6 +84,7 @@ func main() {
 		if err != nil {
 			// ログ出力だけして続行
 			logger.Error(fmt.Sprintf("failed to parse birthday: %s", uma.Birthday), err)
+			continue
 		}
 
 		evt := cal.AddEvent(uma.Name)
