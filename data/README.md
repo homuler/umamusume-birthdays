@@ -1,25 +1,22 @@
 # メンテナンス用データファイル
 
-## birthdays.yaml
+## characters.yaml
 
 全ウマ娘の誕生日データ。
 
 新規ウマ娘が登場したらこちらをメンテナンスする。
 
 ```yaml
-birthdays:
-  - name: "名前"
-    date: "MM/DD"
+- name: 名前
+  birthday: MM/DD
+  url: https://umamusume.jp/character/detail/?name=
+  playable: true
+  costumes:
+    school: 制服のURL
+    racing: 勝負服のURL
+    original: 原案のURL
+    sf: STARTING FUTUREのURL
+  variations:
+    - url: 実装されているキャラクターのURL
 ```
 
-## playables.yaml
-
-育成可能ウマ娘の一覧。
-
-育成可能なウマ娘が追加されたらこちらをメンテナンスする。
-
-```yaml
-playables:
-  names:
-    - "名前"
-```
