@@ -1,7 +1,7 @@
 [build]
   base = "."
   publish = "resources/"
-  command = "make build"
+  command = "make gencal"
 
 [[redirects]]
   from = "/"

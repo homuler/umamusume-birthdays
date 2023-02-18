@@ -10,6 +10,7 @@ import (
 	"time"
 
 	ics "github.com/arran4/golang-ical"
+	umamusume "github.com/homuler/umamusume-birthdays/src"
 	"golang.org/x/exp/slog"
 	"gopkg.in/yaml.v3"
 )
@@ -22,22 +23,6 @@ var (
 	outputPath     = flag.String("o", "birthdays.ics", "output path")
 	verbose        = flag.Bool("v", false, "enable verbose logging")
 )
-
-type Uma struct {
-	Name     string `yaml:"name"`
-	Birthday string `yaml:"birthday"`
-	Url      string `yaml:"url"`
-	Playable bool   `yaml:"playable"`
-	Costumes struct {
-		School   string `yaml:"school"`
-		Racing   string `yaml:"racing"`
-		Original string `yaml:"original"`
-		SF       string `yaml:"sf"`
-	} `yaml:"costumes"`
-	Variations []struct {
-		Url string `yaml:"url"`
-	} `yaml:"variations"`
-}
 
 func main() {
 	flag.Parse()
@@ -60,7 +45,7 @@ func main() {
 	if err != nil {
 		panic(fmt.Sprintf("failed to read %v: %v", *charactersPath, err))
 	}
-	characters := make([]Uma, 0)
+	characters := make([]umamusume.Uma, 0)
 
 	yaml.Unmarshal(contents, &characters)
 
@@ -91,8 +76,8 @@ func main() {
 		evt.SetClass(ics.ClassificationPublic)
 		evt.SetDtStampTime(time.Now())
 		evt.SetSummary(fmt.Sprintf("%sの誕生日", uma.Name))
-		evt.SetDescription(uma.renderString())
-		evt.SetProperty(ics.ComponentProperty(propertyAltDesc), uma.renderHTML(), ics.WithFmtType("text/html"))
+		evt.SetDescription(renderString(&uma))
+		evt.SetProperty(ics.ComponentProperty(propertyAltDesc), renderHTML(&uma), ics.WithFmtType("text/html"))
 		evt.SetURL(uma.Url)
 		evt.AddRrule("FREQ=YEARLY")
 		evt.SetProperty(ics.ComponentPropertyDtStart, t.In(jst).Format("20060102"), ics.WithValue(string(ics.ValueDataTypeDate)))
@@ -107,11 +92,11 @@ func main() {
 	}
 }
 
-func (uma Uma) renderString() string {
+func renderString(uma *umamusume.Uma) string {
 	return fmt.Sprintf("<a href='%s'>%s</a>の誕生日です", uma.Url, uma.Name)
 }
 
-func (uma Uma) renderHTML() string {
+func renderHTML(uma *umamusume.Uma) string {
 	var sb strings.Builder
 
 	sb.WriteString("<!doctype html><html><body>")
