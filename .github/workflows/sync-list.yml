@@ -18,8 +18,8 @@ jobs:
         run: |
           sudo apt -y update && sudo apt -y install libtesseract-dev
           mkdir -p /opt/tesseract/share/tessdata
-          curl https://github.com/tesseract-ocr/tessdata_best/raw/master/eng.traineddata -o /opt/tesseract/share/tessdata/eng.traineddata
-          curl https://github.com/tesseract-ocr/tessdata_best/raw/master/jpn.traineddata -o /opt/tesseract/share/tessdata/jpn.traineddata
+          curl -L https://github.com/tesseract-ocr/tessdata_best/raw/main/eng.traineddata -o /opt/tesseract/share/tessdata/eng.traineddata
+          curl -L https://github.com/tesseract-ocr/tessdata_best/raw/main/jpn.traineddata -o /opt/tesseract/share/tessdata/jpn.traineddata
 
       - name: Run a headless-shell
         run: |
