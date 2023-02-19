@@ -107,14 +107,17 @@ func (task *UmaTask) do(ctx context.Context) (*umamusume.Uma, error) {
 }
 
 func genUmaTasks(ctx context.Context) ([]UmaTask, error) {
+	logger := umamusume.GetLogger(ctx)
+
 	if err := chromedp.Run(ctx, chromedp.Navigate(charactersPageUrl)); err != nil {
 		return nil, fmt.Errorf("failed to access the character page: %v", err)
 	}
 
+	logger.Info("waiting for the character list to show...")
 	var nodes []*cdp.Node
 	ts := chromedp.Tasks{
 		chromedp.Nodes("//section[@class='character-umamusume']/ul[@class='character__list']", &nodes),
-		waitForTimeout(ctx, 1*time.Second), // liが動的に生成されるので、表示の完了を適当に待つ
+		waitForTimeout(ctx, 5*time.Second), // liが動的に生成されるので、表示の完了を適当に待つ
 	}
 	if err := chromedp.Run(ctx, ts); err != nil {
 		return nil, fmt.Errorf("the character list is not found: %v", err)
