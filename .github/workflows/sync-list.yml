@@ -16,7 +16,10 @@ jobs:
 
       - name: Install Tesseract
         run: |
-          sudo apt -y update && sudo apt -y install libtesseract-dev tesseract-ocr-eng tesseract-ocr-jpn tesseract-ocr-jpn-vert
+          sudo apt -y update && sudo apt -y install libtesseract-dev
+          mkdir -p /opt/tesseract/share/tessdata
+          curl https://github.com/tesseract-ocr/tessdata_best/raw/master/eng.traineddata -o /opt/tesseract/share/tessdata/eng.traineddata
+          curl https://github.com/tesseract-ocr/tessdata_best/raw/master/jpn.traineddata -o /opt/tesseract/share/tessdata/jpn.traineddata
 
       - name: Run a headless-shell
         run: |
@@ -27,6 +30,8 @@ jobs:
           go-version: '>=1.20.0'
 
       - name: Sync
+        env:
+          TESSDATA_PREFIX: /opt/tesseract/share/tessdata
         run: |
           make genlist
           git diff
