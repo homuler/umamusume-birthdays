@@ -16,11 +16,12 @@ jobs:
 
       - name: Install Tesseract
         run: |
-          sudo apt -y update && sudo apt -y install libtesseract-dev
+          sudo apt -y update && sudo apt -y install tesseract-ocr libtesseract5 libtesseract-dev
           mkdir -p /opt/tesseract/share/tessdata
           curl -L https://github.com/tesseract-ocr/tessdata_best/raw/main/eng.traineddata -o /opt/tesseract/share/tessdata/eng.traineddata
           curl -L https://github.com/tesseract-ocr/tessdata_best/raw/main/jpn.traineddata -o /opt/tesseract/share/tessdata/jpn.traineddata
           curl -L https://github.com/tesseract-ocr/tessdata_best/raw/main/jpn_vert.traineddata -o /opt/tesseract/share/tessdata/jpn_vert.traineddata
+          tesseract --version
 
       - name: Run a headless-shell
         run: |

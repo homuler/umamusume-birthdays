@@ -39,7 +39,7 @@ func main() {
 	}
 
 	ctx := umamusume.WithLogger(context.Background(), umamusume.NewLogger(level))
-	ctx, cancel := context.WithTimeout(ctx, 8*time.Minute)
+	ctx, cancel := context.WithTimeout(ctx, 20*time.Minute)
 	defer cancel()
 
 	ocrClient, err := ocr.NewClient(umamusume.GetLogger(ctx))
