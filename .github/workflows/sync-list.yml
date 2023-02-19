@@ -8,7 +8,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   sync:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
         with:
@@ -16,7 +16,9 @@ jobs:
 
       - name: Install Tesseract
         run: |
-          sudo apt -y update && sudo apt -y install tesseract-ocr libtesseract5 libtesseract-dev
+          # echo "deb http://archive.ubuntu.com/ubuntu jammy universe" | sudo tee -a /etc/apt/sources.lists
+
+          sudo apt -y update && sudo apt -y install tesseract-ocr libtesseract-dev
           mkdir -p /opt/tesseract/share/tessdata
           curl -L https://github.com/tesseract-ocr/tessdata_best/raw/main/eng.traineddata -o /opt/tesseract/share/tessdata/eng.traineddata
           curl -L https://github.com/tesseract-ocr/tessdata_best/raw/main/jpn.traineddata -o /opt/tesseract/share/tessdata/jpn.traineddata
