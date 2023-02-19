@@ -1,4 +1,4 @@
-.PHONY: gencal genlist clean
+.PHONY: gencal synclist clean
 
 GENCAL = src/cmd/gencal/gencal
 GENLIST = src/cmd/genlist/genlist
@@ -12,7 +12,7 @@ gencal: $(GENCAL)
 $(GENLIST):
 	cd src/cmd/genlist && go build
 
-genlist: $(GENLIST)
+synclist: $(GENLIST)
 	./$(GENLIST) -p ./data/characters.yml -v
 
 clean:

@@ -36,5 +36,5 @@ jobs:
         env:
           TESSDATA_PREFIX: /opt/tesseract/share/tessdata
         run: |
-          make genlist
+          make synclist
           git diff
