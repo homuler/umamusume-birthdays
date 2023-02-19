@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bytes"
 	"flag"
 	"fmt"
 	_ "image/png"
@@ -12,7 +13,6 @@ import (
 	ics "github.com/arran4/golang-ical"
 	umamusume "github.com/homuler/umamusume-birthdays/src"
 	"golang.org/x/exp/slog"
-	"gopkg.in/yaml.v3"
 )
 
 const prodID = "homuler-umamusume-birthdays-calendar"
@@ -45,9 +45,10 @@ func main() {
 	if err != nil {
 		panic(fmt.Sprintf("failed to read %v: %v", *charactersPath, err))
 	}
-	characters := make([]umamusume.Uma, 0)
-
-	yaml.Unmarshal(contents, &characters)
+	characters, err := umamusume.ReadYAML(bytes.NewReader(contents))
+	if err != nil {
+		panic(err)
+	}
 
 	cal := ics.NewCalendar()
 	cal.SetMethod(ics.MethodPublish)
@@ -76,8 +77,8 @@ func main() {
 		evt.SetClass(ics.ClassificationPublic)
 		evt.SetDtStampTime(time.Now())
 		evt.SetSummary(fmt.Sprintf("%sの誕生日", uma.Name))
-		evt.SetDescription(renderString(&uma))
-		evt.SetProperty(ics.ComponentProperty(propertyAltDesc), renderHTML(&uma), ics.WithFmtType("text/html"))
+		evt.SetDescription(renderString(uma))
+		evt.SetProperty(ics.ComponentProperty(propertyAltDesc), renderHTML(uma), ics.WithFmtType("text/html"))
 		evt.SetURL(uma.Url)
 		evt.AddRrule("FREQ=YEARLY")
 		evt.SetProperty(ics.ComponentPropertyDtStart, t.In(jst).Format("20060102"), ics.WithValue(string(ics.ValueDataTypeDate)))
