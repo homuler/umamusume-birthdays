@@ -352,9 +352,10 @@
 - name: シンコウウインディ
   birthday: 04/14
   url: https://umamusume.jp/character/detail/?name=shinkowindy
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2021/01/0cf1938caa3b84e3f2b68b638c36697a.png
+    racing: https://umamusume.jp/app/wp-content/uploads/2021/01/9e12a8f180adb1dfbaeeda9f106b4aa7.png
     original: https://umamusume.jp/app/wp-content/uploads/2021/01/d26f84c3e4dfdaef88be8e612132d2fb.png
     sf: https://umamusume.jp/app/wp-content/uploads/2021/12/45c209f7e63f091f88355db24e0f2879.png
   variations: []
