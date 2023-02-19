@@ -39,7 +39,7 @@ func main() {
 	}
 
 	ctx := umamusume.WithLogger(context.Background(), umamusume.NewLogger(level))
-	ctx, cancel := context.WithTimeout(ctx, 5*time.Minute)
+	ctx, cancel := context.WithTimeout(ctx, 20*time.Minute)
 	defer cancel()
 
 	ocrClient, err := ocr.NewClient(umamusume.GetLogger(ctx))
@@ -59,6 +59,7 @@ func main() {
 func run(ctx context.Context, inpath string, outpath string) error {
 	logger := umamusume.GetLogger(ctx)
 
+	logger.Debug("reading characters.yml...")
 	f, err := os.ReadFile(inpath)
 	if err != nil {
 		return err
@@ -69,10 +70,12 @@ func run(ctx context.Context, inpath string, outpath string) error {
 		return err
 	}
 
+	logger.Debug("fetching the latest character list...")
 	tasks, err := genUmaTasks(ctx)
 	if err != nil {
 		return err
 	}
+	logger.Info("generated tasks", slog.Int("count", len(tasks)))
 
 	new := make([]*umamusume.Uma, 0, len(orig))
 	for i, task := range tasks {
@@ -84,9 +87,11 @@ func run(ctx context.Context, inpath string, outpath string) error {
 		logger.Info("task done", slog.Int("count", i+1), slog.Any("result", *uma))
 	}
 
+	logger.Debug("updating characters.yml...")
 	new = umamusume.Update(orig, new)
 	out, err := yaml.Marshal(new)
 
+	logger.Debug("writing characters.yml...")
 	dir := path.Dir(outpath)
 	if err := os.MkdirAll(dir, os.ModePerm); err != nil {
 		return err
@@ -94,5 +99,6 @@ func run(ctx context.Context, inpath string, outpath string) error {
 	if err := os.WriteFile(outpath, out, 0644); err != nil {
 		return err
 	}
+	logger.Info("updated characters.yml")
 	return nil
 }

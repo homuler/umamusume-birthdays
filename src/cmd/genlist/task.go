@@ -14,6 +14,7 @@ import (
 	"github.com/chromedp/chromedp"
 	umamusume "github.com/homuler/umamusume-birthdays/src"
 	"github.com/homuler/umamusume-birthdays/src/ocr"
+	"golang.org/x/exp/slog"
 )
 
 const (
@@ -32,6 +33,8 @@ type UmaTask struct {
 }
 
 func (task *UmaTask) do(ctx context.Context) (*umamusume.Uma, error) {
+	logger := umamusume.GetLogger(ctx)
+
 	if err := chromedp.Run(ctx, chromedp.Navigate(task.url)); err != nil {
 		return nil, fmt.Errorf("failed to load the profile page of '%v'(%v): %v", task.name, task.url, err)
 	}
@@ -58,10 +61,8 @@ func (task *UmaTask) do(ctx context.Context) (*umamusume.Uma, error) {
 	}
 
 	ocrClient := ocr.FromContext(ctx)
-	// TODO: 認識精度が悪ければ、task.nameを利用する
 	res, err := ocrClient.Read(img)
 	if err != nil {
-		// エラーログを出力
 		return nil, err
 	}
 
@@ -81,12 +82,12 @@ func (task *UmaTask) do(ctx context.Context) (*umamusume.Uma, error) {
 	for _, costume := range nodes {
 		alt, found := getAttribute(costume, "alt")
 		if !found {
-			// TODO: エラーログを出力
+			logger.Warn("alt text for a costume image is not found")
 			continue
 		}
 		src, found := getAttribute(costume, "src")
 		if !found {
-			// TODO: エラーログを出力
+			logger.Warn("src for a costume image is not found")
 			continue
 		}
 
@@ -100,21 +101,24 @@ func (task *UmaTask) do(ctx context.Context) (*umamusume.Uma, error) {
 		} else if strings.HasSuffix(alt, "<small>STARTING<br>FUTURE</small>") {
 			uma.Costumes.SF = src
 		} else {
-			// TODO: ログを出力
+			logger.Warn("unknown alt text for a costume image", slog.String("alt", alt))
 		}
 	}
 	return &uma, nil
 }
 
 func genUmaTasks(ctx context.Context) ([]UmaTask, error) {
+	logger := umamusume.GetLogger(ctx)
+
 	if err := chromedp.Run(ctx, chromedp.Navigate(charactersPageUrl)); err != nil {
 		return nil, fmt.Errorf("failed to access the character page: %v", err)
 	}
 
+	logger.Info("waiting for the character list to show...")
 	var nodes []*cdp.Node
 	ts := chromedp.Tasks{
 		chromedp.Nodes("//section[@class='character-umamusume']/ul[@class='character__list']", &nodes),
-		waitForTimeout(ctx, 1*time.Second), // liが動的に生成されるので、表示の完了を適当に待つ
+		waitForTimeout(ctx, 10*time.Second), // liが動的に生成されるので、表示の完了を適当に待つ
 	}
 	if err := chromedp.Run(ctx, ts); err != nil {
 		return nil, fmt.Errorf("the character list is not found: %v", err)
@@ -151,7 +155,8 @@ func genUmaTasks(ctx context.Context) ([]UmaTask, error) {
 		alt, found := getAttribute(img, "alt")
 		if !found {
 			// 名前が不明のキャラクター
-			fmt.Printf("alt not found: %v", anchor)
+			// スキップしたほうが良いかも？
+			logger.Warn("unknown character found")
 		}
 		tasks = append(tasks, UmaTask{name: alt, url: fmt.Sprintf("%v%v", umamusumeTopUrl, url)})
 	}
