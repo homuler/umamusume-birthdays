@@ -117,7 +117,7 @@ func genUmaTasks(ctx context.Context) ([]UmaTask, error) {
 	var nodes []*cdp.Node
 	ts := chromedp.Tasks{
 		chromedp.Nodes("//section[@class='character-umamusume']/ul[@class='character__list']", &nodes),
-		waitForTimeout(ctx, 5*time.Second), // liが動的に生成されるので、表示の完了を適当に待つ
+		waitForTimeout(ctx, 10*time.Second), // liが動的に生成されるので、表示の完了を適当に待つ
 	}
 	if err := chromedp.Run(ctx, ts); err != nil {
 		return nil, fmt.Errorf("the character list is not found: %v", err)

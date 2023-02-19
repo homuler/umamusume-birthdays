@@ -75,7 +75,7 @@ func run(ctx context.Context, inpath string, outpath string) error {
 	if err != nil {
 		return err
 	}
-	logger.Debug("generated tasks", slog.Any("data", tasks))
+	logger.Debug("generated tasks", slog.Int("count", len(tasks)))
 
 	new := make([]*umamusume.Uma, 0, len(orig))
 	for i, task := range tasks {
