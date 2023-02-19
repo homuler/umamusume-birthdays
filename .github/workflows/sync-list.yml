@@ -16,7 +16,7 @@ jobs:
 
       - name: Install Tesseract
         run: |
-          sudo apt -y update && sudo apt -y install libtesseract-dev tesseract-ocr-eng tesseract-ocr-jpn-*
+          sudo apt -y update && sudo apt -y install libtesseract-dev tesseract-ocr-eng tesseract-ocr-jpn tesseract-ocr-jpn-vert
 
       - name: Run a headless-shell
         run: |
