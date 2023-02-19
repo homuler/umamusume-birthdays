@@ -13,7 +13,7 @@ $(GENLIST):
 	cd src/cmd/genlist && go build
 
 genlist: $(GENLIST)
-	./$(GENLIST) -p ./data/characters.yml
+	./$(GENLIST) -p ./data/characters.yml -v
 
 clean:
 	rm -f $(GENCAL)
