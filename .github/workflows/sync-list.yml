@@ -1,7 +1,10 @@
 name: Sync the character list
 on:
+  push:
+    branches:
+      - main
   schedule:
-    - cron: 0 3,4,13,14,15 * * *
+    - cron: 0 3,4,13,14 * * *
 concurrency:
   group: ${{ github.head_ref || github.ref }}
   cancel-in-progress: true
