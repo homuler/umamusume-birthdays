@@ -1,7 +1,7 @@
 name: Sync the character list
 on:
   schedule:
-    - cron: 0 */12 * * *
+    - cron: 0 3,4,13,14,15 * * *
 concurrency:
   group: ${{ github.head_ref || github.ref }}
   cancel-in-progress: true
