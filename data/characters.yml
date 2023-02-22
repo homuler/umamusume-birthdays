@@ -160,6 +160,16 @@
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_5.png
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_58.png
+- name: カツラギエース
+  birthday: 04/24
+  url: https://umamusume.jp/character/detail/?name=katsuragiace
+  playable: false
+  costumes:
+    school: https://umamusume.jp/app/wp-content/uploads/2023/02/c65124c31d763637cb6a72d1ded4fc51.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: カレンチャン
   birthday: 03/31
   url: https://umamusume.jp/character/detail/?name=currenchan
@@ -392,6 +402,16 @@
     sf: https://umamusume.jp/app/wp-content/uploads/2021/12/1e13784fd2842cbb25cc3e49a6d48a92.png
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_97.png
+- name: ジャングルポケット
+  birthday: 05/07
+  url: https://umamusume.jp/character/detail/?name=junglepocket
+  playable: false
+  costumes:
+    school: https://umamusume.jp/app/wp-content/uploads/2023/02/b6a805d7a54735cd73cd299c91ae26e5.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: スイープトウショウ
   birthday: 05/09
   url: https://umamusume.jp/character/detail/?name=sweeptosho
@@ -475,6 +495,16 @@
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_85.png
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_6.png
+- name: タップダンスシチー
+  birthday: ""
+  url: https://umamusume.jp/character/detail/?name=tapdancecity
+  playable: false
+  costumes:
+    school: https://umamusume.jp/app/wp-content/uploads/2023/02/985b83e29de3fa19fa18a4899ed25a05.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: タニノギムレット
   birthday: 05/04
   url: https://umamusume.jp/character/detail/?name=taninogimlet
@@ -663,6 +693,16 @@
     sf: https://umamusume.jp/app/wp-content/uploads/2021/12/7ef6c86d64f3ded704add116b577ed87.png
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_75.png
+- name: ネオユニヴァース
+  birthday: ""
+  url: https://umamusume.jp/character/detail/?name=neouniverse
+  playable: false
+  costumes:
+    school: https://umamusume.jp/app/wp-content/uploads/2023/02/efadc503449bfa0b6cf23c8f50a8097d.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: ハルウララ
   birthday: 02/27
   url: https://umamusume.jp/character/detail/?name=haruurara
@@ -708,6 +748,16 @@
     sf: https://umamusume.jp/app/wp-content/uploads/2021/12/eb36ca0bfcb2c6dfe8a4faf5dd259c95.png
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_38.png
+- name: ヒシミラクル
+  birthday: ""
+  url: https://umamusume.jp/character/detail/?name=hishimiracle
+  playable: false
+  costumes:
+    school: https://umamusume.jp/app/wp-content/uploads/2023/02/80f017435887d76faaa2af82765db8c1.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: ビコーペガサス
   birthday: 02/08
   url: https://umamusume.jp/character/detail/?name=bikopegasus
@@ -938,7 +988,7 @@
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_18.png
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_115.png
 - name: メジロラモーヌ
-  birthday: ""
+  birthday: 04/09
   url: https://umamusume.jp/character/detail/?name=mejiroramonu
   playable: false
   costumes:
