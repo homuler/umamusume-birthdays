@@ -44,6 +44,10 @@ func Update(orig []*Uma, new []*Uma) []*Uma {
 
 		for _, base := range orig {
 			if base.Name == uma.Name {
+				if base.Birthday == "" {
+					// OCRの誕生日を訂正しうるように、上書きはしない
+					base.Birthday = uma.Birthday
+				}
 				base.Costumes = uma.Costumes
 				base.Playable = uma.Playable
 				found = true
