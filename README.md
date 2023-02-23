@@ -1,38 +1,48 @@
 # ウマ娘誕生日カレンダー
 
+**※非公式です**
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4202df6c-d020-499c-971a-dc10b32d6045/deploy-status)](https://app.netlify.com/sites/umamusume-birthdays/deploys)
 
 ## 概要
+非公式のウマ娘誕生日カレンダーです。\
+[iCalendar](https://datatracker.ietf.org/doc/html/rfc5545) 形式で配信しているため、対応しているカレンダーアプリにインポートして利用できます。
 
-誕生日ボイスの聞き逃し防止のために、ウマ娘の誕生日を iCal 形式で配信しています。
-
-- イメージ
-  ![image](docs/image.png)
-
-
-**※非公式です。**
-不備・誤り・ご指摘などあれば Issues を作成するか、メンションにてご連絡ください。
-
-## カレンダーの URL
-
-### 全ウマ娘（誕生日ボイスが未実装のキャラクターも含む）
 [https://umamusume-birthdays.netlify.app](https://umamusume-birthdays.netlify.app)
 
-## カレンダーの購読方法（例）
+- Google Calendar
+  ![Google Calendar](https://user-images.githubusercontent.com/4690128/220807980-32ca8a05-9582-4f3b-b3c5-c2b625306d3a.png)
 
-- [Google Calendar](docs/how_to_subscribe/google_calendar)
-- [Thunderbird](docs/how_to_subscribe/thunderbird)
+- Outlook Calendar
+  ![Outlook Calendar](https://user-images.githubusercontent.com/4690128/220812678-80ac4ef9-179b-4623-8b8d-ae070cefcba8.png)
 
-その他、URL を指定して追加する機能があれば大抵のカレンダーアプリで購読可能なはずです。
+**※非公式です。**
 
-また、上記 URL からダウンロードした`.ics` ファイルに適当な名前を付けて保存し、カレンダーアプリに取り込むこともできます。<br/>
-（ただしその場合、追加や更新された誕生日は自動では反映されません。手動で取り込みなおす必要があります。）
+不備・誤り・ご指摘などあれば Issues を作成するか、メンションにてご連絡ください。
 
-気になる点や不明点、ご質問などあれば下記アカウントまでご連絡ください。
+## カレンダーの購読方法
+最新の状態を反映させるためには、URLを指定して購読する必要があります。\
+※サービスやアプリによって、更新から反映までの間に遅延があります（Google Calendarの場合、最大12時間（2023/2時点））。
+
+### Google Calendarの例
+[Googleカレンダーのヘルプページ](https://support.google.com/calendar/answer/37100?hl=ja&co=GENIE.Platform%3DDesktop)の、「リンクを使用して一般公開のカレンダーを追加する」と同じ方法で購読できます。
+
+1. [他のカレンダー] > [URLで追加]をクリック
+
+   ![URLで追加](https://user-images.githubusercontent.com/4690128/220811322-9a2ed299-0da3-4245-9373-a363d291bacc.png)
+
+2. URLに https://umamusume-birthdays.netlify.app を指定します
+
+   ![](https://user-images.githubusercontent.com/4690128/220812048-8589a65e-8055-41bf-997c-e0e158e77076.png)
+
+3. 任意で、カレンダーの名前や色を変更します
+
+   ![](https://user-images.githubusercontent.com/4690128/220812042-05460074-52d4-4f77-aaff-981ca1693051.png)
 
 ## リンク
-
 - [キャラクター一覧 | ウマ娘プリティーダービー](https://umamusume.jp/character/)
-  - 公式ページ。
-  - 2023/02/05 時点の状態を反映しています。
-    - 誕生日が記載されているキャラクターのみ登録しています。
+  - 公式ページ
+  - 最新の情報を定期的に取得して、反映しています
+
+## その他
+不備等あれば、Issueを作成して連絡いただけると助かります。
