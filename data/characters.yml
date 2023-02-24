@@ -563,10 +563,10 @@
 - name: ツインターボ
   birthday: 04/13
   url: https://umamusume.jp/character/detail/?name=twinturbo
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2021/01/e75b3f8fecf070bf0924f9e96e72abac.png
-    racing: ""
+    racing: https://umamusume.jp/app/wp-content/uploads/2023/02/35e6ada606bad155041d3212540b09be.png
     original: https://umamusume.jp/app/wp-content/uploads/2021/10/2e1640c7fc1074b5fdc54de9595e0336.png
     sf: https://umamusume.jp/app/wp-content/uploads/2023/01/f5d8c55cfc26a7ce0c79a45d97fb9c56.png
   variations: []
@@ -886,10 +886,10 @@
 - name: ミスターシービー
   birthday: 04/07
   url: https://umamusume.jp/character/detail/?name=mrcb
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2021/01/cb54a04689a7a396221096c653148089.png
-    racing: ""
+    racing: https://umamusume.jp/app/wp-content/uploads/2023/02/5afe3214a883fb8bef4ee3a279467014.png
     original: https://umamusume.jp/app/wp-content/uploads/2021/01/c3996cc16d53fe030bc66c4381aa51c6.png
     sf: https://umamusume.jp/app/wp-content/uploads/2023/01/b596aa6e45dee6731cb502468b3b4140.png
   variations: []
