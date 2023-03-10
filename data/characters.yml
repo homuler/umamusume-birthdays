@@ -530,10 +530,10 @@
 - name: ダイイチルビー
   birthday: 04/15
   url: https://umamusume.jp/character/detail/?name=daiichiruby
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2022/08/adb582d3456f5b448b8fecad4081546d.png
-    racing: ""
+    racing: https://umamusume.jp/app/wp-content/uploads/2023/03/11d6a76699d2cc57ec699ff7c9d7426b.png
     original: ""
     sf: ""
   variations: []
