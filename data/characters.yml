@@ -372,10 +372,10 @@
 - name: シンボリクリスエス
   birthday: 01/21
   url: https://umamusume.jp/character/detail/?name=symbolikriss
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2022/05/681a390d45aeb71d4746a853c36f4164.png
-    racing: ""
+    racing: https://umamusume.jp/app/wp-content/uploads/2023/03/03b263f8d249be76b3e4e6c532428109.png
     original: ""
     sf: ""
   variations: []
