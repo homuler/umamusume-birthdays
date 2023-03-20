@@ -496,7 +496,7 @@
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_85.png
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_6.png
 - name: タップダンスシチー
-  birthday: ""
+  birthday: 03/16
   url: https://umamusume.jp/character/detail/?name=tapdancecity
   playable: false
   costumes:
@@ -694,7 +694,7 @@
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_75.png
 - name: ネオユニヴァース
-  birthday: ""
+  birthday: 05/21
   url: https://umamusume.jp/character/detail/?name=neouniverse
   playable: false
   costumes:
