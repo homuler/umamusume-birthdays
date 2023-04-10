@@ -310,10 +310,10 @@
 - name: サクラローレル
   birthday: 05/08
   url: https://umamusume.jp/character/detail/?name=sakuralaurel
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2022/02/3e9d6815222729cf4df0a55be9d30054.png
-    racing: ""
+    racing: https://umamusume.jp/app/wp-content/uploads/2022/02/c78f224412197d2c4c78c94c08491b78.png
     original: ""
     sf: https://umamusume.jp/app/wp-content/uploads/2023/01/9197abf6d952e7477b143d5e6dd437eb.png
   variations: []
