@@ -751,10 +751,10 @@
 - name: ヒシミラクル
   birthday: 03/31
   url: https://umamusume.jp/character/detail/?name=hishimiracle
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2023/02/80f017435887d76faaa2af82765db8c1.png
-    racing: ""
+    racing: https://umamusume.jp/app/wp-content/uploads/2023/02/84f0a19663939f0df2b54372c0e8631a.png
     original: ""
     sf: ""
   variations: []
