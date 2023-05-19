@@ -508,10 +508,10 @@
 - name: タニノギムレット
   birthday: 05/04
   url: https://umamusume.jp/character/detail/?name=taninogimlet
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2022/05/76b81aeddad6b1f3da7c7bfbdeee317b.png
-    racing: ""
+    racing: https://umamusume.jp/app/wp-content/uploads/2022/05/2953e63fac50024ca74e74bed5034e8a.png
     original: ""
     sf: https://umamusume.jp/app/wp-content/uploads/2023/01/1fe80187428b719e36e363313fd4271d.png
   variations: []
