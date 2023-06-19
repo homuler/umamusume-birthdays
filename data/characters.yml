@@ -163,10 +163,10 @@
 - name: カツラギエース
   birthday: 04/24
   url: https://umamusume.jp/character/detail/?name=katsuragiace
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2023/02/c65124c31d763637cb6a72d1ded4fc51.png
-    racing: ""
+    racing: https://umamusume.jp/app/wp-content/uploads/2023/02/0ad19e7efefd5d70af45c5cc083caafa.png
     original: ""
     sf: ""
   variations: []
@@ -489,7 +489,7 @@
   playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2021/01/8cb1efa8488b4dd008f47d31137d546d.png
-    racing: https://umamusume.jp/app/wp-content/uploads/2023/01/deecf6c65402e2215b7285c5720b426c.png
+    racing: https://umamusume.jp/app/wp-content/uploads/2021/01/15602eaf175d64e844bed728149040d8.png
     original: https://umamusume.jp/app/wp-content/uploads/2021/01/30a8f8bc0745cb35e4438b707e5f4d25.png
     sf: https://umamusume.jp/app/wp-content/uploads/2021/12/e023d25e4c6da8e346b107b32c2e864c.png
   variations:
@@ -876,10 +876,10 @@
 - name: マーベラスサンデー
   birthday: 05/31
   url: https://umamusume.jp/character/detail/?name=marveloussunday
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2021/01/38a6ace0079c3853b2ac1d969fa53d5b.png
-    racing: ""
+    racing: https://umamusume.jp/app/wp-content/uploads/2021/01/c9b0df166206c449d15567a6b62c2b57.png
     original: https://umamusume.jp/app/wp-content/uploads/2021/01/5a7455b2c4d9c41213c897e65a0e27ee.png
     sf: https://umamusume.jp/app/wp-content/uploads/2021/12/3cb500b466b9d6e9bd91c1b525f85420.png
   variations: []
