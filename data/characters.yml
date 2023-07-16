@@ -352,11 +352,11 @@
 - name: シリウスシンボリ
   birthday: 03/26
   url: https://umamusume.jp/character/detail/?name=siriussymboli
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2021/01/069a94076bf5fb4462b69f9d9cccf400.png
-    racing: ""
-    original: ""
+    racing: https://umamusume.jp/app/wp-content/uploads/2021/01/8ce6d2063462bca409da84988f04a1cc.png
+    original: https://umamusume.jp/app/wp-content/uploads/2021/01/1b5aa9b9f5c5eb7864ec5bce74fc26c9.png
     sf: https://umamusume.jp/app/wp-content/uploads/2023/01/6bdd5b682b09f4359b82795dc450222f.png
   variations: []
 - name: シンコウウインディ
