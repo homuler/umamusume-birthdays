@@ -285,6 +285,16 @@
     sf: https://umamusume.jp/app/wp-content/uploads/2021/12/e100d9b316bf03e926b811a1064a75fd.png
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_2.png
+- name: サウンズオブアース
+  birthday: 04/12
+  url: https://umamusume.jp/character/detail/?name=soundsofearth
+  playable: false
+  costumes:
+    school: https://umamusume.jp/app/wp-content/uploads/2023/08/dcb1e3236c82ecb6126b7522a0848280.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: サクラチヨノオー
   birthday: 02/19
   url: https://umamusume.jp/character/detail/?name=sakurachiyonoo
