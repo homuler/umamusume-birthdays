@@ -713,6 +713,16 @@
     original: ""
     sf: ""
   variations: []
+- name: ノースフライト
+  birthday: 04/12
+  url: https://umamusume.jp/character/detail/?name=northflight
+  playable: false
+  costumes:
+    school: https://umamusume.jp/app/wp-content/uploads/2023/09/b94f337187bb405527b0dede6f866ea7.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: ハルウララ
   birthday: 02/27
   url: https://umamusume.jp/character/detail/?name=haruurara
