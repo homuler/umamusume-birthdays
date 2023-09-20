@@ -232,10 +232,10 @@
 - name: ケイエスミラクル
   birthday: 03/16
   url: https://umamusume.jp/character/detail/?name=k.s.miracle
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2022/08/b459ca73bb5a8a8c4a7044a41f9b6e5d.png
-    racing: ""
+    racing: https://umamusume.jp/app/wp-content/uploads/2022/08/d9d032229d927491a2013460bc229ce2.png
     original: ""
     sf: https://umamusume.jp/app/wp-content/uploads/2023/01/a2cded3f397228843d8ea386503252b7.png
   variations: []
