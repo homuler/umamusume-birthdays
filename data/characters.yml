@@ -635,6 +635,16 @@
     sf: https://umamusume.jp/app/wp-content/uploads/2021/12/f0346e4956872d0dc7f1e59dd28ff878.png
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_56.png
+- name: ドゥラメンテ
+  birthday: 03/22
+  url: https://umamusume.jp/character/detail/?name=duramente
+  playable: false
+  costumes:
+    school: https://umamusume.jp/app/wp-content/uploads/2023/10/d2131222eb886dbcaac8a4e20df1de53.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: ナイスネイチャ
   birthday: 04/16
   url: https://umamusume.jp/character/detail/?name=nicenature
