@@ -1020,10 +1020,10 @@
 - name: メジロラモーヌ
   birthday: 04/09
   url: https://umamusume.jp/character/detail/?name=mejiroramonu
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2022/11/e717d3c0d803954a067cce2f664c1185.png
-    racing: ""
+    racing: https://umamusume.jp/app/wp-content/uploads/2022/11/5166c995e918e5b6245986e9bb4ef0a2.png
     original: ""
     sf: https://umamusume.jp/app/wp-content/uploads/2022/05/5d50bd8b4d9ed8d4c5d5048edc264fa6.png
   variations: []
