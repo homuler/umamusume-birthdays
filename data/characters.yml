@@ -1083,3 +1083,23 @@
     sf: https://umamusume.jp/app/wp-content/uploads/2022/05/f007e09347bd5b3ce96c51ab6a5077ee.png
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_105.png
+- name: ヴィブロス
+  birthday: 04/09
+  url: https://umamusume.jp/character/detail/?name=vivlos
+  playable: false
+  costumes:
+    school: https://umamusume.jp/app/wp-content/uploads/2023/11/d84049924d9ca7c2a3d0d0de14f0f7ac.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
+- name: ヴィルシーナ
+  birthday: 03/05
+  url: https://umamusume.jp/character/detail/?name=verxina
+  playable: false
+  costumes:
+    school: https://umamusume.jp/app/wp-content/uploads/2023/11/07183b522cf3c09c99fd1fcd39c34f2d.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
