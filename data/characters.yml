@@ -349,6 +349,16 @@
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_71.png
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_111.png
+- name: サムソンビッグ
+  birthday: ""
+  url: https://umamusume.jp/character/detail/?name=samsonbig
+  playable: false
+  costumes:
+    school: https://umamusume.jp/app/wp-content/uploads/2023/11/e5b7fc6e2893d89f4138d915d8fbb96b.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: シュヴァルグラン
   birthday: 03/14
   url: https://umamusume.jp/character/detail/?name=chevalgrand
@@ -508,11 +518,11 @@
 - name: タップダンスシチー
   birthday: 03/16
   url: https://umamusume.jp/character/detail/?name=tapdancecity
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2023/02/985b83e29de3fa19fa18a4899ed25a05.png
-    racing: ""
-    original: ""
+    racing: https://umamusume.jp/app/wp-content/uploads/2023/02/05f8202e1c3710da11c72ffeee39bd4b.png
+    original: https://umamusume.jp/app/wp-content/uploads/2023/02/958cde86af16afe3d6fb57e91a8888e6.png
     sf: https://umamusume.jp/app/wp-content/uploads/2022/05/04c727f78212126a84d5dd9572fe65f5.png
   variations: []
 - name: タニノギムレット
