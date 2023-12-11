@@ -330,10 +330,10 @@
 - name: サトノクラウン
   birthday: 03/10
   url: https://umamusume.jp/character/detail/?name=satonocrown
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2022/04/a2406071af1b5ebd012d1b79ff7122a7.png
-    racing: ""
+    racing: https://umamusume.jp/app/wp-content/uploads/2022/02/79e633d0aa3fbe8cc7f927940cb72fc3.png
     original: ""
     sf: https://umamusume.jp/app/wp-content/uploads/2023/01/c8b6a5592ab6fc65a1e99dc7c0dd47ac.png
   variations: []
