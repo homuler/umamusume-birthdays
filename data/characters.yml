@@ -362,10 +362,10 @@
 - name: シュヴァルグラン
   birthday: 03/14
   url: https://umamusume.jp/character/detail/?name=chevalgrand
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2022/02/180afd452d132c053e981aa88dfc28c0.png
-    racing: ""
+    racing: https://umamusume.jp/app/wp-content/uploads/2022/02/6d7f44f605d6200f9727e42045e3ec61.png
     original: ""
     sf: ""
   variations: []
@@ -1082,6 +1082,16 @@
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_9.png
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_50.png
+- name: ロイスアンドロイス
+  birthday: 03/10
+  url: https://umamusume.jp/character/detail/?name=royceandroyce
+  playable: false
+  costumes:
+    school: https://umamusume.jp/app/wp-content/uploads/2023/12/5f7c8782e56d86c1ebe3be81a36df0c6.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: ワンダーアキュート
   birthday: 03/14
   url: https://umamusume.jp/character/detail/?name=wonderacute
