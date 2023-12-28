@@ -168,7 +168,7 @@
     school: https://umamusume.jp/app/wp-content/uploads/2023/02/c65124c31d763637cb6a72d1ded4fc51.png
     racing: https://umamusume.jp/app/wp-content/uploads/2023/02/c24c3d5ca8a914b7c6e0854e5de12bc4.png
     original: ""
-    sf: ""
+    sf: https://umamusume.jp/app/wp-content/uploads/2023/02/7b95aea744721c2d12c1d4ddf4c19f69.png
   variations: []
 - name: カレンチャン
   birthday: 03/31
@@ -334,7 +334,7 @@
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2022/04/a2406071af1b5ebd012d1b79ff7122a7.png
     racing: https://umamusume.jp/app/wp-content/uploads/2022/02/79e633d0aa3fbe8cc7f927940cb72fc3.png
-    original: ""
+    original: https://umamusume.jp/app/wp-content/uploads/2022/02/282bc7f405a1a6acad4a2d63bdbc3d0c.png
     sf: https://umamusume.jp/app/wp-content/uploads/2023/01/c8b6a5592ab6fc65a1e99dc7c0dd47ac.png
   variations: []
 - name: サトノダイヤモンド
@@ -366,8 +366,8 @@
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2022/02/180afd452d132c053e981aa88dfc28c0.png
     racing: https://umamusume.jp/app/wp-content/uploads/2022/02/6d7f44f605d6200f9727e42045e3ec61.png
-    original: ""
-    sf: ""
+    original: https://umamusume.jp/app/wp-content/uploads/2022/02/6af90504f7a674366587c7be617e782b.png
+    sf: https://umamusume.jp/app/wp-content/uploads/2022/02/2a52804a8bd91c8ce4eff612eb0e5620.png
   variations: []
 - name: シリウスシンボリ
   birthday: 03/26
@@ -731,7 +731,7 @@
     school: https://umamusume.jp/app/wp-content/uploads/2023/02/efadc503449bfa0b6cf23c8f50a8097d.png
     racing: https://umamusume.jp/app/wp-content/uploads/2023/02/f2294e4a095c90b821422996674c8d28.png
     original: ""
-    sf: ""
+    sf: https://umamusume.jp/app/wp-content/uploads/2023/02/637a4bf5bdbe4ef54b1578df792c7fd8.png
   variations: []
 - name: ノースフライト
   birthday: 04/12
@@ -795,7 +795,7 @@
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2023/02/80f017435887d76faaa2af82765db8c1.png
     racing: https://umamusume.jp/app/wp-content/uploads/2023/02/84f0a19663939f0df2b54372c0e8631a.png
-    original: ""
+    original: https://umamusume.jp/app/wp-content/uploads/2023/02/b0232296e9e063bb560f93d28b678cec.png
     sf: https://umamusume.jp/app/wp-content/uploads/2022/05/da5df8a602b9a1210dbdd5bd3f494dd0.png
   variations: []
 - name: ビコーペガサス
@@ -1085,10 +1085,10 @@
 - name: ロイスアンドロイス
   birthday: 03/10
   url: https://umamusume.jp/character/detail/?name=royceandroyce
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2023/12/5f7c8782e56d86c1ebe3be81a36df0c6.png
-    racing: ""
+    racing: https://umamusume.jp/app/wp-content/uploads/2023/12/75518e8fe05bf39e2c1347736845e981.png
     original: ""
     sf: ""
   variations: []
@@ -1106,20 +1106,20 @@
 - name: ヴィブロス
   birthday: 04/09
   url: https://umamusume.jp/character/detail/?name=vivlos
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2023/11/d84049924d9ca7c2a3d0d0de14f0f7ac.png
-    racing: ""
+    racing: https://umamusume.jp/app/wp-content/uploads/2023/11/edd090911c302cbb8f787a66eefa49cf.png
     original: ""
     sf: ""
   variations: []
 - name: ヴィルシーナ
   birthday: 03/05
   url: https://umamusume.jp/character/detail/?name=verxina
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2023/11/07183b522cf3c09c99fd1fcd39c34f2d.png
-    racing: ""
+    racing: https://umamusume.jp/app/wp-content/uploads/2023/11/d90a46c41ee003e39c85954587facf65.png
     original: ""
     sf: ""
   variations: []
