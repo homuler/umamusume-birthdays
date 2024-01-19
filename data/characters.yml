@@ -648,12 +648,12 @@
 - name: ドゥラメンテ
   birthday: 03/22
   url: https://umamusume.jp/character/detail/?name=duramente
-  playable: false
+  playable: true
   costumes:
     school: https://umamusume.jp/app/wp-content/uploads/2023/10/d2131222eb886dbcaac8a4e20df1de53.png
-    racing: ""
-    original: ""
-    sf: ""
+    racing: https://umamusume.jp/app/wp-content/uploads/2023/10/e7e0410cc666face75002d116c0ec135.png
+    original: https://umamusume.jp/app/wp-content/uploads/2023/10/acb4ac5fd7835d5440a52ff18d79133d.png
+    sf: https://umamusume.jp/app/wp-content/uploads/2023/10/535ae3751c0577eaeefbe989017b9835.png
   variations: []
 - name: ナイスネイチャ
   birthday: 04/16
