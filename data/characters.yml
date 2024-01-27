@@ -422,6 +422,16 @@
     sf: https://umamusume.jp/app/wp-content/uploads/2021/12/1e13784fd2842cbb25cc3e49a6d48a92.png
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_97.png
+- name: シーザリオ
+  birthday: 03/31
+  url: https://umamusume.jp/character/detail/?name=cesario
+  playable: false
+  costumes:
+    school: https://umamusume.jp/app/wp-content/uploads/2024/01/6de24928e97bcfc0b41908a614fa6ca5.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: ジャングルポケット
   birthday: 05/07
   url: https://umamusume.jp/character/detail/?name=junglepocket
