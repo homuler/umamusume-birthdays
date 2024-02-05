@@ -124,6 +124,16 @@
     sf: https://umamusume.jp/app/wp-content/uploads/2021/12/8153ed4aa72a96ed62dff67f9ae4846e.png
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_87.png
+- name: エアメサイア
+  birthday: 02/04
+  url: https://umamusume.jp/character/detail/?name=airmessiah
+  playable: false
+  costumes:
+    school: https://umamusume.jp/app/wp-content/uploads/2024/02/608f1c3a1af4a0c45f528ddd40c6488d.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: エイシンフラッシュ
   birthday: 03/27
   url: https://umamusume.jp/character/detail/?name=eishinflash
@@ -632,6 +642,16 @@
     original: ""
     sf: ""
   variations: []
+- name: デアリングハート
+  birthday: 03/09
+  url: https://umamusume.jp/character/detail/?name=daringheart
+  playable: false
+  costumes:
+    school: https://umamusume.jp/app/wp-content/uploads/2024/02/fc8a460a43bb1abed45466a6a9714d54.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: トウカイテイオー
   birthday: 04/20
   url: https://umamusume.jp/character/detail/?name=tokaiteio
@@ -1092,6 +1112,16 @@
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_9.png
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_50.png
+- name: ラインクラフト
+  birthday: 04/04
+  url: https://umamusume.jp/character/detail/?name=rheinkraft
+  playable: false
+  costumes:
+    school: https://umamusume.jp/app/wp-content/uploads/2024/02/9e40455693933b15154c475544fa6469.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: ロイスアンドロイス
   birthday: 03/10
   url: https://umamusume.jp/character/detail/?name=royceandroyce
