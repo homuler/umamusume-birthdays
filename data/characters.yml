@@ -955,7 +955,7 @@
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_41.png
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_74.png
 - name: フリオーソ
-  birthday: ""
+  birthday: 05/01
   url: https://umamusume.jp/character/detail/?name=furioso
   playable: false
   costumes:
