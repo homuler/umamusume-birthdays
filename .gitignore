@@ -1,2 +1,4 @@
 .vscode/
 resources/
+
+node_modules/
