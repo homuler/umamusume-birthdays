@@ -79,7 +79,7 @@ const main = async () => {
 
   logger.info("launching puppeteer");
   const browser = await puppeteer.launch({
-    headless: false,
+    headless: true,
     args: [`--window-size=1920,1080`],
     defaultViewport: {
       width:1920,
