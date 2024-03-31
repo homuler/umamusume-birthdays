@@ -1,4 +1,4 @@
-package umamusume
+package main
 
 import (
 	"fmt"

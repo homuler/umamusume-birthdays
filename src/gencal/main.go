@@ -11,7 +11,6 @@ import (
 	"time"
 
 	ics "github.com/arran4/golang-ical"
-	umamusume "github.com/homuler/umamusume-birthdays/src"
 	"golang.org/x/exp/slog"
 )
 
@@ -45,7 +44,7 @@ func main() {
 	if err != nil {
 		panic(fmt.Sprintf("failed to read %v: %v", *charactersPath, err))
 	}
-	characters, err := umamusume.ReadYAML(bytes.NewReader(contents))
+	characters, err := ReadYAML(bytes.NewReader(contents))
 	if err != nil {
 		panic(err)
 	}
@@ -93,11 +92,11 @@ func main() {
 	}
 }
 
-func renderString(uma *umamusume.Uma) string {
+func renderString(uma *Uma) string {
 	return fmt.Sprintf("<a href='%s'>%s</a>の誕生日です", uma.Url, uma.Name)
 }
 
-func renderHTML(uma *umamusume.Uma) string {
+func renderHTML(uma *Uma) string {
 	var sb strings.Builder
 
 	sb.WriteString("<!doctype html><html><body>")
