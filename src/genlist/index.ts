@@ -89,8 +89,10 @@ const main = async () => {
 
   logger.info("getting the character list");
   const emptyPage = await openEmptyPage(browser);
-  const charactersPage = await retriable(() => emptyPage.goToCharactersPage(), 3);
-  const characters = await charactersPage.getCharacterCards();
+  const characters = await retriable(async () => {
+    const charactersPage = await emptyPage.goToCharactersPage();
+    return charactersPage.getCharacterCards();
+  }, 3);
 
   logger.debug("got the character list", { count: characters.length, data: characters });
 
@@ -100,8 +102,10 @@ const main = async () => {
   for (const character of characters) {
     logger.info("getting the profile", { target: character });
 
-    const characterPage = await retriable(() => emptyPage.goToCharacterPage(character.url), 3);
-    const profile = await retriable(() => characterPage.getProfile(), 3);
+    const profile = await retriable(async () => {
+      const characterPage = await emptyPage.goToCharacterPage(character.url);
+      return characterPage.getProfile();
+    }, 3);
 
     logger.debug("got the profile", { data: profile });
     if (profile.name === null) {
