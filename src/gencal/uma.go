@@ -27,7 +27,7 @@ type Uma struct {
 func ReadYAML(r io.Reader) ([]*Uma, error) {
 	bs, err := io.ReadAll(r)
 	if err != nil {
-		return nil, fmt.Errorf("Failed to parse characters: %w", err)
+		return nil, fmt.Errorf("failed to parse characters: %w", err)
 	}
 
 	us := make([]*Uma, 0)
