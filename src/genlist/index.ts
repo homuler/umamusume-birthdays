@@ -5,6 +5,8 @@ import yargs from "yargs";
 
 import { Profile } from "./data";
 import { openEmptyPage } from "./pages/empty";
+import { retriable } from "./promise";
+import { logger } from "./log";
 
 interface Uma {
   name: string;
@@ -69,10 +71,13 @@ const parser = yargs(process.argv.slice(2)).options({
 const main = async () => {
   const argv = await parser.parse();
 
-  const yamlPath = argv.p;
-  const data = readUmaYAML(yamlPath);
-  console.log(data);
+  logger.setLevel(argv.v);
 
+  const yamlPath = argv.p;
+  logger.info("reading characters.yml", { path: yamlPath });
+  const data = readUmaYAML(yamlPath);
+
+  logger.info("launching puppeteer");
   const browser = await puppeteer.launch({
     headless: false,
     args: [`--window-size=1920,1080`],
@@ -82,30 +87,38 @@ const main = async () => {
     },
   });
 
+  logger.info("getting the character list");
   const emptyPage = await openEmptyPage(browser);
-  const charactersPage = await emptyPage.goToCharactersPage();
-  console.log("opened charactersPage");
+  const charactersPage = await retriable(() => emptyPage.goToCharactersPage(), 3);
   const characters = await charactersPage.getCharacterCards();
-  console.log(characters);
+
+  logger.debug("got the character list", { count: characters.length, data: characters });
+
+  logger.info("getting the profile of each character");
 
   const profiles: Profile[] = [];
   for (const character of characters) {
-    const characterPage = await emptyPage.goToCharacterPage(character.url);
-    console.log("opened characterPage");
-    const profile = await characterPage.getProfile();
-    console.log(profile);
+    logger.info("getting the profile", { target: character });
+
+    const characterPage = await retriable(() => emptyPage.goToCharacterPage(character.url), 3);
+    const profile = await retriable(() => characterPage.getProfile(), 3);
+
+    logger.debug("got the profile", { data: profile });
     if (profile.name === null) {
-      console.log("null name");
+      logger.warn("got the profile with null name", { target: character, data: profile });
       continue;
     }
     profiles.push(profile);
   }
+
+  logger.debug("closing the browser");
+  await browser.close();
+
   profiles.sort((a, b) => (a.name as string).localeCompare(b.name as string));
-  console.log(profiles);
+  logger.debug("got all profiles", { count: profiles.length, data: profiles });
 
+  logger.info("saving the updated character list", { path: yamlPath });
   const newUmaList = updateUmaList(data, profiles);
-  console.log(newUmaList);
-
   const newYAML = YAML.stringify(newUmaList);
   fs.writeFileSync(yamlPath, newYAML);
 };

@@ -1,6 +1,6 @@
-import { Page } from 'puppeteer';
 import { BasePage } from './common';
 import { Costume, Profile } from '../data';
+import { logger } from '../log';
 
 const detailTextSelector = 'div.character-detail__text';
 const profileSelector = `${detailTextSelector} > dl.profile`;
@@ -19,7 +19,7 @@ export class CharacterPage extends BasePage {
   private async getName(): Promise<string | null> {
     const nameNode = await this.page.$(nameSelector);
     if (nameNode == null) {
-      throw new Error('Name not found');
+      throw new Error('Unexpected DOM: Name not found');
     }
     return nameNode.evaluate((node) => node.textContent);
   }
@@ -27,17 +27,17 @@ export class CharacterPage extends BasePage {
   private async getBirthday(): Promise<string | null> {
     const profileNode = await this.page.$(profileSelector);
     if (profileNode == null) {
-      throw new Error('Profile not found');
+      throw new Error('Unexpected DOM: Profile not found');
     }
     const dts = await profileNode.$$('dt');
     const dds = await profileNode.$$('dd');
 
     if (dts.length == 0 || dds.length == 0) {
-      throw new Error('Unexpected profile format');
+      throw new Error('Unexpected DOM: unknown profile format');
     }
     const birthdayLabel = await dts[0].evaluate((node) => node.textContent);
     if (birthdayLabel != '誕生日') {
-      throw new Error('Birthday not found');
+      throw new Error('Unexpected DOM: Birthday not found');
     }
     const birthdayText = await dds[0].evaluate((node) => node.textContent);
     const normalizedBirthday = birthdayText && normalizeBirthday(birthdayText);
@@ -61,7 +61,7 @@ export class CharacterPage extends BasePage {
         case '原案': costume.original = src; break;
         case '<small>STARTING<br>FUTURE</small>': costume.staringFuture = src; break;
         default: {
-          console.warn(`Unknown costume type: ${type}`);
+          logger.warn("Unknown costume type", { type });
           break;
         }
       }
