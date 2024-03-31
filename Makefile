@@ -10,7 +10,7 @@ gencal: $(GENCAL)
 	./$(GENCAL) -p ./data/characters.yml -o ./resources/birthdays.ics
 
 $(GENLIST):
-	cd src/genlist && npm run build
+	cd src/genlist && npm install && npm run build
 
 synclist: $(GENLIST)
 	node ./$(GENLIST) -p ./data/characters.yml -vv
