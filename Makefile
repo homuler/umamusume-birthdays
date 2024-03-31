@@ -1,19 +1,19 @@
 .PHONY: gencal synclist clean
 
-GENCAL = src/cmd/gencal/gencal
-GENLIST = src/cmd/genlist/genlist
+GENCAL = src/gencal/gencal
+GENLIST = src/genlist/dist/index.js
 
 $(GENCAL):
-	cd src/cmd/gencal && go build
+	cd src/gencal && go build
 
 gencal: $(GENCAL)
 	./$(GENCAL) -p ./data/characters.yml -o ./resources/birthdays.ics
 
 $(GENLIST):
-	cd src/cmd/genlist && go build
+	cd src/genlist && npm run build
 
 synclist: $(GENLIST)
-	./$(GENLIST) -p ./data/characters.yml -v
+	node ./$(GENLIST) -p ./data/characters.yml -vv
 
 clean:
 	rm -f $(GENCAL)

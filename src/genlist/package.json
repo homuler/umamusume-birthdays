@@ -1,13 +1,12 @@
 {
   "name": "umamusume-birthdays",
   "version": "0.1.0",
-  "description": "**※非公式です**",
+  "description": "characters.ymlを生成する",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc"
   },
   "author": "homuler",
-  "license": "MIT",
   "devDependencies": {
     "@types/yargs": "^17.0.32",
     "typescript": "^5.4.3"
