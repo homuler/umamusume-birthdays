@@ -4,7 +4,7 @@ GENCAL = src/gencal/gencal
 GENLIST = src/genlist/dist/index.js
 
 $(GENCAL):
-	cd src/gencal && go build
+	cd src/gencal && go build -o gencal
 
 gencal: $(GENCAL)
 	./$(GENCAL) -p ./data/characters.yml -o ./resources/birthdays.ics
