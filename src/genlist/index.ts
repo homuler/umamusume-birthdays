@@ -89,7 +89,10 @@ const main = async () => {
 
   logger.info("getting the character list");
   const emptyPage = await openEmptyPage(browser);
-  const characters = await retriable(async () => {
+  const characters = await retriable(async (isRetrying) => {
+    if (isRetrying) {
+      await emptyPage.reset();
+    }
     const charactersPage = await emptyPage.goToCharactersPage();
     return charactersPage.getCharacterCards();
   }, 3);
@@ -102,7 +105,10 @@ const main = async () => {
   for (const character of characters) {
     logger.info("getting the profile", { target: character });
 
-    const profile = await retriable(async () => {
+    const profile = await retriable(async (isRetrying) => {
+      if (isRetrying) {
+        await emptyPage.reset();
+      }
       const characterPage = await emptyPage.goToCharacterPage(character.url);
       return characterPage.getProfile();
     }, 3);

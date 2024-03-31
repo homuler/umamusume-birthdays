@@ -19,6 +19,10 @@ class EmptyPage extends BasePage {
     await this.goto(url);
     return new CharacterPage(this.page);
   }
+
+  public async reset(): Promise<void> {
+    return super.reset();
+  }
 }
 
 export const openEmptyPage = async (browser: Browser): Promise<EmptyPage> => {
