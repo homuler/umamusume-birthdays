@@ -348,10 +348,10 @@
 - name: サウンズオブアース
   birthday: 04/12
   url: https://umamusume.jp/character/soundsofearth
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/b33ce60e64f44c9eaea3085fb1f8b6ac/soundsofearth_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f64f299d136940ab8413041dadc050d1/soundsofearth_02.png
     original: ""
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/4b74c7bcb7e24631abd281973ff806a6/soundsofearth_04.png
   variations: []
