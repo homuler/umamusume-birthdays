@@ -1,6 +1,6 @@
 import { BasePage, umamusumeTopUrl } from './common';
 
-const charactersSelector = 'div.chara-umamusume > div.character-index__list > ul > li';
+const charactersSelector = 'article:first-child div.character-index__list > ul > li';
 
 interface CharacterCard {
   url: string;
