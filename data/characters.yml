@@ -856,10 +856,10 @@
 - name: ノースフライト
   birthday: 04/12
   url: https://umamusume.jp/character/northflight
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/9c691e0cf2c54935bbd07634aa233d14/northflight_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/346b92186eaf40edb4034c30aecbfd10/northflight_02.png
     original: ""
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/464f9b792dc2479ba41cfd755fc3a758/northflight_04.png
   variations: []
