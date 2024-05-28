@@ -96,7 +96,7 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/a5ccdd75e9e242c1b9302b8a281dfcd6/vivlos_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/244e561a280b486893eb658fc15150c2/vivlos_02.png
-    original: ""
+    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/06f2d627bdbd4f0d948d5a64f89d7781/vivlos_03.png
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/68913844937141a2bb4352d3093b8742/vivlos_04.png
   variations: []
 - name: ヴィルシーナ
@@ -448,7 +448,7 @@
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/881a726e15d84434a98575f8621caffc/gentildonna_01.png
     racing: ""
     original: ""
-    sf: ""
+    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/43ba5ab334bf4cd990d32984e8163d38/gentildonna_04.png
   variations: []
 - name: ジャングルポケット
   birthday: 05/07
@@ -860,7 +860,7 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/9c691e0cf2c54935bbd07634aa233d14/northflight_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/346b92186eaf40edb4034c30aecbfd10/northflight_02.png
-    original: ""
+    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/5e8f724b612545da91d256134e8935b5/northflight_03.png
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/464f9b792dc2479ba41cfd755fc3a758/northflight_04.png
   variations: []
 - name: ノーリーズン
