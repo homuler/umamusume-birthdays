@@ -453,10 +453,10 @@
 - name: ジャングルポケット
   birthday: 05/07
   url: https://umamusume.jp/character/junglepocket
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/fe765184219342b498ddd1399610e108/junglepocket_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/4201ced0eb7941528b7c9ca6d5c4b9d0/junglepocket_02.png
     original: ""
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/1004113a825b4a05b6d29bc24a2ede7f/junglepocket_04.png
   variations: []
