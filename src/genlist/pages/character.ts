@@ -7,7 +7,7 @@ const profileSelector = `${detailTextSelector} > dl.profile`;
 const nameSelector = `${detailTextSelector} > div > div.name`;
 
 const detailVisualSelector = 'div.character-detail__visual';
-const costumeImageSelector = `${detailVisualSelector} > div.character-detail__visual-main ul.splide__list > li > img`;
+const costumeImageSelector = `${detailVisualSelector} > div.character-detail__visual-main ul.splide__list img`;
 
 export class CharacterPage extends BasePage {
   private async waitForDetail() {
