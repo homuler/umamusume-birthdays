@@ -230,6 +230,16 @@
     original: ""
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/6b7cdb88dc9e4404994bb93619827592/katsuragiace_04.png
   variations: []
+- name: カルストンライトオ
+  birthday: 05/03
+  url: https://umamusume.jp/character/calstonelighto
+  playable: false
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/7a0c73cb22f446e98c28ace27eaf028e/calstonelighto_01.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: カレンチャン
   birthday: 03/31
   url: https://umamusume.jp/character/currenchan
@@ -457,7 +467,7 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/fe765184219342b498ddd1399610e108/junglepocket_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/4201ced0eb7941528b7c9ca6d5c4b9d0/junglepocket_02.png
-    original: ""
+    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/b2cb26ef8d2d4918a2070aa246f0f8d5/junglepocket_03.png
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/1004113a825b4a05b6d29bc24a2ede7f/junglepocket_04.png
   variations: []
 - name: シュヴァルグラン
@@ -732,6 +742,16 @@
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_26.png
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_63.png
+- name: デュランダル
+  birthday: 05/25
+  url: https://umamusume.jp/character/durandal
+  playable: false
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/720bfbd382fb4a61b9ad11889acccbb3/durandal_01.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: トーセンジョーダン
   birthday: 02/04
   url: https://umamusume.jp/character/tosenjordan
@@ -773,6 +793,16 @@
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/c59987f599934c2592cc8228a75c1b43/transcend_01_3.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/de49251f6b8d49b29a44ee784a957d21/transcend_02.png
     original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/7c2816394c764cb48ac1a4552cf7949b/transcend_03.png
+    sf: ""
+  variations: []
+- name: ドリームジャーニー
+  birthday: 02/24
+  url: https://umamusume.jp/character/dreamjourney
+  playable: true
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/a9906794762440ae858b253ee233ecc8/dreamjourney_01.png
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/0861bb9471564c1ba0e3d56d1d7e775a/dreamjourney_02.png
+    original: ""
     sf: ""
   variations: []
 - name: ナイスネイチャ
@@ -938,6 +968,16 @@
     original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/91662550cc874f4aa3a18cbce20ab9b4/hishimiracle_03.png
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/ec2c320e6b7b4d5f876d9f9cd1c3fbba/hishimiracle_04.png
   variations: []
+- name: ビリーヴ
+  birthday: 04/26
+  url: https://umamusume.jp/character/believe
+  playable: false
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/cbc254e838f149f0becff8f44cf984cc/believe_01.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: ビワハヤヒデ
   birthday: 03/10
   url: https://umamusume.jp/character/biwahayahide
@@ -962,6 +1002,16 @@
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_60.png
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_82.png
+- name: ブエナビスタ
+  birthday: 03/14
+  url: https://umamusume.jp/character/buenavista
+  playable: false
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/8f101c720e31473b8801a18e54b3afa3/buenavista_01.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: フジキセキ
   birthday: 04/15
   url: https://umamusume.jp/character/fujikiseki
