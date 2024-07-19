@@ -233,10 +233,10 @@
 - name: カルストンライトオ
   birthday: 05/03
   url: https://umamusume.jp/character/calstonelighto
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/7a0c73cb22f446e98c28ace27eaf028e/calstonelighto_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/ce4c514517e04ce8b55742c46c3647ba/calstonelighto_02.png
     original: ""
     sf: ""
   variations: []
