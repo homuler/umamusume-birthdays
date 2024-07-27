@@ -112,12 +112,12 @@
 - name: ウインバリアシオン
   birthday: 04/10
   url: https://umamusume.jp/character/winvariation
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/5975f3c059dd4a168fa1f0ded5dec00f/winvariation_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/875a200914eb4392b54787a6a42c2ab2/winvariation_02.png
     original: ""
-    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/7ffc89940d714ac7bb4409ecdede559c/winvariation_04.png
+    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/c20b272a30114200a82a8433b7e7e7f1/winvariation_04.png
   variations: []
 - name: ウオッカ
   birthday: 04/04
@@ -157,12 +157,12 @@
 - name: エアメサイア
   birthday: 02/04
   url: https://umamusume.jp/character/airmessiah
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/688780c486b84f74936826cdea9dc3bb/airmessiah_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/9d5f7649f2b94d929770c33e66bf482c/airmessiah_02.png
     original: ""
-    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f13d3e0280e54800989b99d0870cc8a0/airmessiah_04.png
+    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/478f258e190e4fe087804ce4eb9252b6/airmessiah_04.png
   variations: []
 - name: エイシンフラッシュ
   birthday: 03/27
@@ -179,10 +179,10 @@
 - name: エスポワールシチー
   birthday: 04/22
   url: https://umamusume.jp/character/espoircity
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/6434712c24974ac4bf62878175b9e6c5/espoircity_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f136025cd5534272ad761eec5587205d/espoircity_02.png
     original: ""
     sf: ""
   variations: []
@@ -213,10 +213,10 @@
 - name: オルフェーヴル
   birthday: 05/14
   url: https://umamusume.jp/character/orfevre
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/fe1cd487093943248a8351e7d1979d67/orfevre_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/efc8ca6612ff457a84208685ca5b06cf/orfevre_02.png
     original: ""
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/d7ca79c898244eba96538887397fef8c/orfevre_04.png
   variations: []
@@ -237,8 +237,8 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/7a0c73cb22f446e98c28ace27eaf028e/calstonelighto_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/ce4c514517e04ce8b55742c46c3647ba/calstonelighto_02.png
-    original: ""
-    sf: ""
+    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/0b0f5e5e1ab1418e98d3a09fb6b9e63a/calstonelighto_03.png
+    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/447f76591cf5436bae49b573ef6c1dac/calstonelighto_04.png
   variations: []
 - name: カレンチャン
   birthday: 03/31
@@ -443,20 +443,20 @@
 - name: シーザリオ
   birthday: 03/31
   url: https://umamusume.jp/character/cesario
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/bb448380e41849778a897c9bbeb212a6/cesario_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/a515d5960f374117958b93c2f9ef8802/cesario_02.png
     original: ""
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/b69bbf90ed874e2a911289c4c35dde87/cesario_04.png
   variations: []
 - name: ジェンティルドンナ
   birthday: 02/20
   url: https://umamusume.jp/character/gentildonna
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/881a726e15d84434a98575f8621caffc/gentildonna_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/d7eede6083004c2bbe1c6c0726a7360d/gentildonna_02.png
     original: ""
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/43ba5ab334bf4cd990d32984e8163d38/gentildonna_04.png
   variations: []
@@ -548,12 +548,12 @@
 - name: スティルインラブ
   birthday: 05/02
   url: https://umamusume.jp/character/stillinlove
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/4fd066e2f2514aed9a8a0db4bbf90bca/stillinlove_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/d1b5c980264c4d84b4c14b085256f10b/stillinlove_02.png
     original: ""
-    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/cd0eac24fae64b27a455209ae4ebbb98/stillinLove_04.png.png
+    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/d3bb128ba8c149888d6184dc09b0e322/stillinlove_04.png
   variations: []
 - name: スペシャルウィーク
   birthday: 05/02
@@ -683,12 +683,12 @@
 - name: ダンツフレーム
   birthday: 04/19
   url: https://umamusume.jp/character/dantsuflame
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/c5e6c882f4af4c9f99384a131456ed85/dantsuflame_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/1f4a96c2e4cd4e72ac168efeaef1ef1c/dantsuflame_02.png
     original: ""
-    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f9dd226464704553a3a7e7e74c7544db/dantsuflame_04.png
+    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/760a8c11e71c4be7bbfdf0d180b52ade/dantsuflame_04.png
   variations: []
 - name: ツインターボ
   birthday: 04/13
@@ -703,10 +703,10 @@
 - name: ツルマルツヨシ
   birthday: 04/06
   url: https://umamusume.jp/character/tsurumarutsuyoshi
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/86929dbbed954b95b8210f59181292c4/tsurumarutsuyoshi_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/19fccbb46ca24dcf87740a98d24951ef/tsurumarutsuyoshi_02.png
     original: ""
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/aa5bd83aeb20465ea0646ce4bc727960/tsurumarutsuyoshi_04.png
   variations: []
@@ -723,10 +723,10 @@
 - name: デアリングハート
   birthday: 03/09
   url: https://umamusume.jp/character/daringheart
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/8d0f42f9f431444282ea753a62d7852e/daringheart_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/01288e4868ef4ae695425180eda7ceda/daringheart_02.png
     original: ""
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/eca61b99ba464b9ca45361e965a02e91/daringheart_04.png
   variations: []
@@ -745,10 +745,10 @@
 - name: デュランダル
   birthday: 05/25
   url: https://umamusume.jp/character/durandal
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/720bfbd382fb4a61b9ad11889acccbb3/durandal_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/84636f8429b945418c41eb0b5f0dfb08/durandal_02.png
     original: ""
     sf: ""
   variations: []
@@ -896,10 +896,10 @@
 - name: ノーリーズン
   birthday: 06/04
   url: https://umamusume.jp/character/noreason
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/c81b10e8d43b454686a5d9ddace5eaa1/noreason_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/a24e338ac3ac47cd8a96dbcfb640d9c0/noreason_02.png
     original: ""
     sf: ""
   variations: []
@@ -971,10 +971,10 @@
 - name: ビリーヴ
   birthday: 04/26
   url: https://umamusume.jp/character/believe
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/cbc254e838f149f0becff8f44cf984cc/believe_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/3136a8d8d2e24458a4ffd8cc9c1415d7/believe_02.png
     original: ""
     sf: ""
   variations: []
@@ -1005,10 +1005,10 @@
 - name: ブエナビスタ
   birthday: 03/14
   url: https://umamusume.jp/character/buenavista
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/8f101c720e31473b8801a18e54b3afa3/buenavista_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/41d830aecd0145f898987aee7b40fc08/buenavista_02.png
     original: ""
     sf: ""
   variations: []
@@ -1027,10 +1027,10 @@
 - name: フリオーソ
   birthday: 05/01
   url: https://umamusume.jp/character/furioso
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/57f6d89f9bc24188a8f68434dae22ebb/furioso_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/25760b04298446ef8b1e15e8512da510/furioso_02.png
     original: ""
     sf: ""
   variations: []
