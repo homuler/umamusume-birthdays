@@ -184,7 +184,7 @@
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/6434712c24974ac4bf62878175b9e6c5/espoircity_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f136025cd5534272ad761eec5587205d/espoircity_02.png
     original: ""
-    sf: ""
+    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/ab6c8e516fbf4264818bad0543be5f74/espoircity_04.png
   variations: []
 - name: エルコンドルパサー
   birthday: 03/17
@@ -420,14 +420,14 @@
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_71.png
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_111.png
 - name: サムソンビッグ
-  birthday: ""
+  birthday: 04/14
   url: https://umamusume.jp/character/samsonbig
   playable: false
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/67897b4078a74063851597f3afc4aef4/samsonbig_01.png
     racing: ""
     original: ""
-    sf: ""
+    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/baca0b6ad1a64888999f27d15006f934/samsonbig_04.png
   variations: []
 - name: シーキングザパール
   birthday: 04/16
@@ -457,7 +457,7 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/881a726e15d84434a98575f8621caffc/gentildonna_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/d7eede6083004c2bbe1c6c0726a7360d/gentildonna_02.png
-    original: ""
+    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/bd784aa0ec7848d4a93df3bec5c93b21/gentildonna_03.png
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/43ba5ab334bf4cd990d32984e8163d38/gentildonna_04.png
   variations: []
 - name: ジャングルポケット
@@ -793,7 +793,7 @@
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/c59987f599934c2592cc8228a75c1b43/transcend_01_3.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/de49251f6b8d49b29a44ee784a957d21/transcend_02.png
     original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/7c2816394c764cb48ac1a4552cf7949b/transcend_03.png
-    sf: ""
+    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/4d5b5d6ebdc3409dbdb8c20558f47d61/transcend_04.png
   variations: []
 - name: ドリームジャーニー
   birthday: 02/24
@@ -803,7 +803,7 @@
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/a9906794762440ae858b253ee233ecc8/dreamjourney_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/0861bb9471564c1ba0e3d56d1d7e775a/dreamjourney_02.png
     original: ""
-    sf: ""
+    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/e93628db8e8c458293ff581ea6c54353/dreamjourney_04_2.png
   variations: []
 - name: ナイスネイチャ
   birthday: 04/16
@@ -900,6 +900,16 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/c81b10e8d43b454686a5d9ddace5eaa1/noreason_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/a24e338ac3ac47cd8a96dbcfb640d9c0/noreason_02.png
+    original: ""
+    sf: ""
+  variations: []
+- name: バブルガムフェロー
+  birthday: 04/11
+  url: https://umamusume.jp/character/bubblegumfellow
+  playable: false
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f20183bdd3144cc78ae80158a4638b18/bubblegumfellow_01.png
+    racing: ""
     original: ""
     sf: ""
   variations: []
@@ -1032,7 +1042,7 @@
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/57f6d89f9bc24188a8f68434dae22ebb/furioso_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/25760b04298446ef8b1e15e8512da510/furioso_02.png
     original: ""
-    sf: ""
+    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/6ba3bc0f25964566843d81c9251a4ded/furioso_04_2.png
   variations: []
 - name: ホッコータルマエ
   birthday: 05/26
