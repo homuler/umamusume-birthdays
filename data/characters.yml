@@ -749,8 +749,8 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/720bfbd382fb4a61b9ad11889acccbb3/durandal_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/84636f8429b945418c41eb0b5f0dfb08/durandal_02.png
-    original: ""
-    sf: ""
+    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/0d8f02ebc67a44e28f3c4dce9fb4fe07/durandal_03.png
+    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/952ddca639ca4cf78296d924be0325c5/durandal_04.png
   variations: []
 - name: トーセンジョーダン
   birthday: 02/04
@@ -986,7 +986,7 @@
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/cbc254e838f149f0becff8f44cf984cc/believe_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/3136a8d8d2e24458a4ffd8cc9c1415d7/believe_02.png
     original: ""
-    sf: ""
+    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/6b4b748a1fe54b4bae2a674c727b78aa/believe_04.png
   variations: []
 - name: ビワハヤヒデ
   birthday: 03/10
@@ -1021,6 +1021,16 @@
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/41d830aecd0145f898987aee7b40fc08/buenavista_02.png
     original: ""
     sf: ""
+  variations: []
+- name: フサイチパンドラ
+  birthday: 02/27
+  url: https://umamusume.jp/character/fusaichipandora
+  playable: false
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/0c4d2e0e7b0e4973b824ccc9d37e28fe/fusaichipandora_01.png
+    racing: ""
+    original: ""
+    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/0208f7517f7a4eee9b45ed2ae238ca4f/fusaichipandora_04.png
   variations: []
 - name: フジキセキ
   birthday: 04/15
