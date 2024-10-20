@@ -906,10 +906,10 @@
 - name: バブルガムフェロー
   birthday: 04/11
   url: https://umamusume.jp/character/bubblegumfellow
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f20183bdd3144cc78ae80158a4638b18/bubblegumfellow_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/9aecc4a43a05408e80c8acc346f03aa3/bubblegumfellow_02.png
     original: ""
     sf: ""
   variations: []
