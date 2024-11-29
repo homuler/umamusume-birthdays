@@ -422,10 +422,10 @@
 - name: サムソンビッグ
   birthday: 04/14
   url: https://umamusume.jp/character/samsonbig
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/67897b4078a74063851597f3afc4aef4/samsonbig_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/81881bc5bd9d4779afb496ddd1042e3b/samsonbig_02.png
     original: ""
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/baca0b6ad1a64888999f27d15006f934/samsonbig_04.png
   variations: []
@@ -1044,6 +1044,16 @@
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_41.png
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_74.png
+- name: ブラストワンピース
+  birthday: 04/02
+  url: https://umamusume.jp/character/blastonepiece
+  playable: false
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f8fec7fa9def45ec828821d6c8b0ed27/blastonepiece_01.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: フリオーソ
   birthday: 05/01
   url: https://umamusume.jp/character/furioso
