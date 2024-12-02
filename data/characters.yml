@@ -365,6 +365,16 @@
     original: ""
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/4b74c7bcb7e24631abd281973ff806a6/soundsofearth_04.png
   variations: []
+- name: サクラチトセオー
+  birthday: 05/11
+  url: https://umamusume.jp/character/sakurachitoseo
+  playable: false
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/634945162f1c4bae87fda88f55716621/sakurachitoseo_01.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: サクラチヨノオー
   birthday: 02/19
   url: https://umamusume.jp/character/sakurachiyonoo
