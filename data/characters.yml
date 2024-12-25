@@ -116,7 +116,7 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/5975f3c059dd4a168fa1f0ded5dec00f/winvariation_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/875a200914eb4392b54787a6a42c2ab2/winvariation_02.png
-    original: ""
+    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/682793167c9a4c028e7c447a84148b1b/winvariation_03.png
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/c20b272a30114200a82a8433b7e7e7f1/winvariation_04.png
   variations: []
 - name: ウオッカ
