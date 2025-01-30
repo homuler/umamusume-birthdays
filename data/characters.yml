@@ -1071,7 +1071,7 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/57f6d89f9bc24188a8f68434dae22ebb/furioso_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/25760b04298446ef8b1e15e8512da510/furioso_02.png
-    original: ""
+    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/ce7f6f8a08094bbf9ba627c1fc5700ef/furioso_03.png
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/6ba3bc0f25964566843d81c9251a4ded/furioso_04_2.png
   variations: []
 - name: ホッコータルマエ
