@@ -1,3 +1,13 @@
+- name: アーモンドアイ
+  birthday: 03/10
+  url: https://umamusume.jp/character/almondeye
+  playable: true
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/79f6294c41e149278d792d6636fecb5d/almondeye_01.png
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/a8d43d4084d5487abc45b149f57a73e5/almondeye_02.png
+    original: ""
+    sf: ""
+  variations: []
 - name: アイネスフウジン
   birthday: 04/10
   url: https://umamusume.jp/character/inesfujin
@@ -217,7 +227,7 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/fe1cd487093943248a8351e7d1979d67/orfevre_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/efc8ca6612ff457a84208685ca5b06cf/orfevre_02.png
-    original: ""
+    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/0bf8501fba7b42d49e74b74bbcc9ddba/orfevre_03.png
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/d7ca79c898244eba96538887397fef8c/orfevre_04.png
   variations: []
 - name: カツラギエース
@@ -252,6 +262,16 @@
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_31.png
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_81.png
+- name: カレンブーケドール
+  birthday: 04/23
+  url: https://umamusume.jp/character/currenbouquetdor
+  playable: true
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/4975d4060304488a9b30fe63625bb08f/currenbouquetdor_01.png
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/43eaaf309f724a3285459681bb43ceed/currenbouquetdor_02.png
+    original: ""
+    sf: ""
+  variations: []
 - name: カワカミプリンセス
   birthday: 06/05
   url: https://umamusume.jp/character/kawakamiprincess
@@ -299,6 +319,26 @@
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_13.png
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_40.png
+- name: グランアレグリア
+  birthday: 01/24
+  url: https://umamusume.jp/character/granalegria
+  playable: true
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/22aaeb4acffa41a49ea2e9203d711da5/granalegria_01.png
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/50fdcafbf6be44d18e9922bbf13d3bc6/granalegria_02.png
+    original: ""
+    sf: ""
+  variations: []
+- name: クロノジェネシス
+  birthday: 03/06
+  url: https://umamusume.jp/character/chronogenesis
+  playable: true
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/e0460992f1344a479e29f0f4ac044a14/chronogenesis_01.png
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/24b67e64064049f1855ba135e43d5d0f/chronogenesis_02.png
+    original: ""
+    sf: ""
+  variations: []
 - name: ケイエスミラクル
   birthday: 03/16
   url: https://umamusume.jp/character/ksmiracle
@@ -717,18 +757,18 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/86929dbbed954b95b8210f59181292c4/tsurumarutsuyoshi_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/19fccbb46ca24dcf87740a98d24951ef/tsurumarutsuyoshi_02.png
-    original: ""
+    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/bf0d64f25ec545ac902a44b5f9ba63c8/tsurumarutsuyoshi_03.png
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/aa5bd83aeb20465ea0646ce4bc727960/tsurumarutsuyoshi_04.png
   variations: []
 - name: デアリングタクト
-  birthday: ""
+  birthday: 04/15
   url: https://umamusume.jp/character/daringtact
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f5964af15c9c461e839f85da1edd858a/daringtact_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/08382ad69d184061b99b08dbd980e78c/daringtact_02.png
     original: ""
-    sf: ""
+    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/c224f95b8f8a40e0a33d31f9b55ca814/daringtact_04.png
   variations: []
 - name: デアリングハート
   birthday: 03/09
@@ -911,7 +951,7 @@
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/c81b10e8d43b454686a5d9ddace5eaa1/noreason_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/a24e338ac3ac47cd8a96dbcfb640d9c0/noreason_02.png
     original: ""
-    sf: ""
+    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/603a343b405146d5b104f78f70a259a7/noreason_04_1.png
   variations: []
 - name: バブルガムフェロー
   birthday: 04/11
@@ -1030,15 +1070,25 @@
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/8f101c720e31473b8801a18e54b3afa3/buenavista_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/41d830aecd0145f898987aee7b40fc08/buenavista_02.png
     original: ""
+    sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/aae585384a4440a19b541c1cc74ba0da/buenavista_04.png
+  variations: []
+- name: フェノーメノ
+  birthday: 04/20
+  url: https://umamusume.jp/character/fenomeno
+  playable: true
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/197e3067b38c47a8b2da86f6d6a0728a/fenomeno_01.png
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/5230cafdb5384b3b9271626203c6eda0/fenomeno_02.png
+    original: ""
     sf: ""
   variations: []
 - name: フサイチパンドラ
   birthday: 02/27
   url: https://umamusume.jp/character/fusaichipandora
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/0c4d2e0e7b0e4973b824ccc9d37e28fe/fusaichipandora_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f36efe2205414f67b9e347aa6985efa8/fusaichipandora_02.png
     original: ""
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/0208f7517f7a4eee9b45ed2ae238ca4f/fusaichipandora_04.png
   variations: []
@@ -1057,10 +1107,10 @@
 - name: ブラストワンピース
   birthday: 04/02
   url: https://umamusume.jp/character/blastonepiece
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f8fec7fa9def45ec828821d6c8b0ed27/blastonepiece_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f87a0768cba84354b1993cd61f6b7bfc/blastonepiece_02.png
     original: ""
     sf: ""
   variations: []
@@ -1321,6 +1371,26 @@
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/7e71539426fa4d439bd79ed1cafd28bc/rheinkraft_02.png
     original: ""
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/5ce8868b84494e23b97c11e334b2d5dc/rheinkraft_04.png
+  variations: []
+- name: ラヴズオンリーユー
+  birthday: 03/26
+  url: https://umamusume.jp/character/lovesonlyyou
+  playable: true
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/d090b2bf1b3d44d38418cd10a39934e1/lovesonlyyou_01.png
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/c0fc7a0c53344a21a7061adaa52cddbf/lovesonlyyou_02.png
+    original: ""
+    sf: ""
+  variations: []
+- name: ラッキーライラック
+  birthday: 04/03
+  url: https://umamusume.jp/character/luckylilac
+  playable: true
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/626d216f287b4a5ba03bdb1791f2d739/luckylilac_01.png
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/92a3ff168d034d8fba9ce16dd9e3c9d6/luckylilac_02.png
+    original: ""
+    sf: ""
   variations: []
 - name: ロイスアンドロイス
   birthday: 03/10
