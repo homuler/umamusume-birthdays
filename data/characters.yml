@@ -595,6 +595,16 @@
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/5c71baf4f1e2455b9598a7b08b6ca5e0/sweeptosho_04.png
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_84.png
+- name: ステイゴールド
+  birthday: 03/24
+  url: https://umamusume.jp/character/staygold
+  playable: false
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/5fae768d52124d939f3eeedf5e1220c5/staygold_01.png
+    racing: ""
+    original: ""
+    sf: ""
+  variations: []
 - name: スティルインラブ
   birthday: 05/02
   url: https://umamusume.jp/character/stillinlove
