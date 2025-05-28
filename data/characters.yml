@@ -598,10 +598,10 @@
 - name: ステイゴールド
   birthday: 03/24
   url: https://umamusume.jp/character/staygold
-  playable: false
+  playable: true
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/5fae768d52124d939f3eeedf5e1220c5/staygold_01.png
-    racing: ""
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/2f061dcf6d4f4a569e5cf6fd14fd3da8/staygold_02.png
     original: ""
     sf: ""
   variations: []
@@ -1389,7 +1389,7 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/d090b2bf1b3d44d38418cd10a39934e1/lovesonlyyou_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/c0fc7a0c53344a21a7061adaa52cddbf/lovesonlyyou_02.png
-    original: ""
+    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/0996d2bbc2a64006bdd5927879baea1a/lovesonlyyou_03.png
     sf: ""
   variations: []
 - name: ラッキーライラック
