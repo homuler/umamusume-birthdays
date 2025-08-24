@@ -54,6 +54,16 @@
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/d2d69a678e6f4e95b9eba4da32b07b2f/astonmachan_04.png
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_100.png
+- name: アドマイヤグルーヴ
+  birthday: 04/30
+  url: https://umamusume.jp/character/admiregroove
+  playable: true
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/2d91385722a346988b8f14953e59c5fe/admiregroove_01.png
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/cebf37f32c6e4b12a238600b2e09f7b1/admiregroove_02.png
+    original: ""
+    sf: ""
+  variations: []
 - name: アドマイヤベガ
   birthday: 03/12
   url: https://umamusume.jp/character/admirevega
@@ -237,7 +247,7 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f7f6df1b350c4d2ea8dc91e76eef1940/katsuragiace_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/c26250ddf55842d3ba406f9e4495767e/katsuragiace_02.png
-    original: ""
+    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/57a729b4a0934f72a2675bf7c44d2e9b/katsuragiace_03.png
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/6b7cdb88dc9e4404994bb93619827592/katsuragiace_04.png
   variations: []
 - name: カルストンライトオ
@@ -507,7 +517,7 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/881a726e15d84434a98575f8621caffc/gentildonna_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/d7eede6083004c2bbe1c6c0726a7360d/gentildonna_02.png
-    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/bd784aa0ec7848d4a93df3bec5c93b21/gentildonna_03.png
+    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/b71f00cf5ebb4e11b641ba15d5749ca1/gentildonna_03_3.png
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/43ba5ab334bf4cd990d32984e8163d38/gentildonna_04.png
   variations: []
 - name: ジャングルポケット
@@ -612,7 +622,7 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/4fd066e2f2514aed9a8a0db4bbf90bca/stillinlove_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/d1b5c980264c4d84b4c14b085256f10b/stillinlove_02.png
-    original: ""
+    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/d6c6fc441e0340bea278c1e15de96e6f/stillinlove_03.png
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/d3bb128ba8c149888d6184dc09b0e322/stillinlove_04.png
   variations: []
 - name: スペシャルウィーク
