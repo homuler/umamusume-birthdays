@@ -203,7 +203,7 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/6434712c24974ac4bf62878175b9e6c5/espoircity_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/336b8d8ac65f4867a1d9b25747205b29/espoircity_02_2.png
-    original: ""
+    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/e2a99aa55057446484784ab8410033f9/espoircity_03.png
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/ab6c8e516fbf4264818bad0543be5f74/espoircity_04.png
   variations: []
 - name: エルコンドルパサー
@@ -1055,7 +1055,7 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/cbc254e838f149f0becff8f44cf984cc/believe_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/3136a8d8d2e24458a4ffd8cc9c1415d7/believe_02.png
-    original: ""
+    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/3aae4eca64144664b8304c690a5a05e0/believe_03.png
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/6b4b748a1fe54b4bae2a674c727b78aa/believe_04.png
   variations: []
 - name: ビワハヤヒデ
