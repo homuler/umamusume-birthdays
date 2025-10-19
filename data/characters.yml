@@ -1412,6 +1412,16 @@
     original: ""
     sf: ""
   variations: []
+- name: レッドディザイア
+  birthday: 04/19
+  url: https://umamusume.jp/character/reddesire
+  playable: true
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/ffb7fe4173ae45ea8b1befcd7db223b4/reddesire_01.png
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/114ecab9617b46f281c626a0613939e2/reddesire_02.png
+    original: ""
+    sf: ""
+  variations: []
 - name: ロイスアンドロイス
   birthday: 03/10
   url: https://umamusume.jp/character/royceandroyce
