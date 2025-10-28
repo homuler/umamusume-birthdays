@@ -757,7 +757,7 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/c5e6c882f4af4c9f99384a131456ed85/dantsuflame_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/1f4a96c2e4cd4e72ac168efeaef1ef1c/dantsuflame_02.png
-    original: ""
+    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/2c9d0d1f396a4950ae53380d09aa7a5c/dantsuflame_03.png
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/760a8c11e71c4be7bbfdf0d180b52ade/dantsuflame_04.png
   variations: []
 - name: ツインターボ
