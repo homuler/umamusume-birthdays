@@ -1089,7 +1089,7 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/8f101c720e31473b8801a18e54b3afa3/buenavista_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/41d830aecd0145f898987aee7b40fc08/buenavista_02.png
-    original: ""
+    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f3110ead71764ad5a0d8f53308a38f7f/buenavista_03.png
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/aae585384a4440a19b541c1cc74ba0da/buenavista_04.png
   variations: []
 - name: フェノーメノ
