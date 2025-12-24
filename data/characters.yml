@@ -293,6 +293,16 @@
     sf: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/efdb7a0449e74161a7d5a03526449fce/kawakamiprincess_04.png
   variations:
     - url: https://img.gamewith.jp/article_tools/uma-musume/gacha/ikusei_main_52.png
+- name: キセキ
+  birthday: 05/13
+  url: https://umamusume.jp/character/kiseki
+  playable: true
+  costumes:
+    school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/2c06ffa1f24f40f69176710c874e2501/kiseki_01.png
+    racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/67913ad7a76b4115815db193974fff90/kiseki_02.png
+    original: ""
+    sf: ""
+  variations: []
 - name: キタサンブラック
   birthday: 03/10
   url: https://umamusume.jp/character/kitasanblack
@@ -612,7 +622,7 @@
   costumes:
     school: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/5fae768d52124d939f3eeedf5e1220c5/staygold_01.png
     racing: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/2f061dcf6d4f4a569e5cf6fd14fd3da8/staygold_02.png
-    original: ""
+    original: https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/40a277f5f4ae4b24bac3994d152ab4f0/staygold_03.png
     sf: ""
   variations: []
 - name: スティルインラブ
